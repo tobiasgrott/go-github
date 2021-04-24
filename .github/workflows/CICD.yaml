@@ -38,7 +38,7 @@ jobs:
           golint .
 
       - name: Run testing
-        run: cd test && go test -v
+        run: go test -v
 
       #- name: Run GoReleaser
       #  uses: goreleaser/goreleaser-action@master
